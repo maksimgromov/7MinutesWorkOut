@@ -3,4 +3,8 @@
     <string name="image">start image</string>
     <string name="start">START</string>
     <string name="get_ready_for">GET READY FOR</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="you_have_finished_the_workout">You have finished the workout!</string>
+    <string name="finish">FINISH</string>
+    <string name="end">END</string>
 </resources>
