@@ -1,5 +1,6 @@
 package com.maksimgromov.a7minutesworkout
 
+import android.app.Dialog
 import android.content.Intent
 import android.media.MediaPlayer
 import android.net.Uri
@@ -12,6 +13,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.maksimgromov.a7minutesworkout.databinding.ActivityExerciseBinding
+import com.maksimgromov.a7minutesworkout.databinding.DialogCustomBackConfirmationBinding
 import java.lang.Exception
 import java.util.*
 import kotlin.collections.ArrayList
@@ -43,7 +45,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             supportActionBar?.setDisplayHomeAsUpEnabled(true)
         }
         binding?.toolbarExercise?.setNavigationOnClickListener {
-            onBackPressed()
+            showCustomDialogForBackButton()
         }
         exerciseList = Constants.defaultExerciseList()
         tts = TextToSpeech(this, this)
@@ -51,10 +53,29 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         setExerciseStatusRecyclerView()
     }
 
+    private fun showCustomDialogForBackButton() {
+        val dialog = Dialog(this)
+        val dialogBinding = DialogCustomBackConfirmationBinding.inflate(layoutInflater)
+        dialog.setContentView(dialogBinding.root)
+        dialog.setCanceledOnTouchOutside(false)
+        dialogBinding.tvYes.setOnClickListener {
+            this@ExerciseActivity.finish()
+            dialog.dismiss()
+        }
+        dialogBinding.tvNo.setOnClickListener {
+            dialog.dismiss()
+        }
+        dialog.show()
+    }
+
     private fun setExerciseStatusRecyclerView() {
         binding?.rvExerciseStatus?.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         exerciseAdapter = ExerciseStatusAdapter(exerciseList!!)
         binding?.rvExerciseStatus?.adapter = exerciseAdapter
+    }
+
+    override fun onBackPressed() {
+        showCustomDialogForBackButton()
     }
 
     override fun onDestroy() {
