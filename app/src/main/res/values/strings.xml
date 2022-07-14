@@ -11,4 +11,26 @@
     <string name="this_will_stop_your_workout_you_ve_come_this_far_are_you_sure_you_want_to_quit">This will stop your workout. You\'ve come this far, are you sure you want to quit?</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
+    <string name="bmi">BMI</string>
+    <string name="calculator">Calculator</string>
+    <string name="calculate_bmi">CALCULATE BMI</string>
+    <string name="weight_in_kg">Weight (in kg)</string>
+    <string name="height_in_cm">Height (in cm)</string>
+    <string name="your_bmi">YOUR BMI</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="please_enter_valid_values">Please enter valid values.</string>
+    <string name="very_severely_underweight">Very severely underweight</string>
+    <string name="severely_underweight">Severely underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese_class_one">Obese Class 1 (Moderately obese)</string>
+    <string name="obese_class_two">Obese Class 2 (Severely obese)</string>
+    <string name="obese_class_three">Obese Class 3 (Very Severely obese)</string>
+    <string name="dangerous_condition">OMG! You are in a very dangerous condition! Act now!</string>
+    <string name="workout_maybe">Oops! You really need to take care of your yourself! Workout maybe!</string>
+    <string name="good_shape">Congratulations! You are in a good shape!</string>
+    <string name="eat_more">Oops! You really need to take better care of yourself! Eat more!</string>
+    <string name="metric_units">METRIC UNITS</string>
+    <string name="us_units">US UNITS</string>
 </resources>

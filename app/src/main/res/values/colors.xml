@@ -13,4 +13,7 @@
     <color name="lightGrey">#C4C4C4</color>
     <color name="toolbar_color_control_normal">#FF000000</color>
     <color name="darkGrey">#212121</color>
+    <color name="selectorGrey">#ADB3BE</color>
+    <color name="radioGroupWhite">#ECEDEF</color>
+    <color name="radioGroupGrey">#9AA2AF</color>
 </resources>

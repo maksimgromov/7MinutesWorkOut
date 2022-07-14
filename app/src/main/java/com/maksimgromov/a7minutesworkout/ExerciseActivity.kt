@@ -10,7 +10,6 @@ import android.os.CountDownTimer
 import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.maksimgromov.a7minutesworkout.databinding.ActivityExerciseBinding
 import com.maksimgromov.a7minutesworkout.databinding.DialogCustomBackConfirmationBinding

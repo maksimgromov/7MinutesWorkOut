@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.7MinutesWorkOut" parent="Theme.MaterialComponents.DayNight.NoActionBar">
