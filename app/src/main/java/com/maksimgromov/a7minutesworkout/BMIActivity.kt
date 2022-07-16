@@ -11,7 +11,7 @@ import java.math.RoundingMode
 class BMIActivity : AppCompatActivity() {
 
     companion object {
-        private  const val METRIC_UNITS_VIEW = "METRIC_UNIT_VIEW"
+        private const val METRIC_UNITS_VIEW = "METRIC_UNIT_VIEW"
         private const val US_UNITS_VIEW = "US_UNIT_VIEW"
     }
 
