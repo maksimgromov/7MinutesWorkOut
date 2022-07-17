@@ -16,4 +16,5 @@
     <color name="selectorGrey">#ADB3BE</color>
     <color name="radioGroupWhite">#ECEDEF</color>
     <color name="radioGroupGrey">#9AA2AF</color>
+    <color name="items_row_history_background">#EBEBEB</color>
 </resources>

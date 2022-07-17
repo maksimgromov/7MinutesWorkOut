@@ -37,4 +37,6 @@
     <string name="inch">Inch</string>
     <string name="history">History</string>
     <string name="history_image">history image</string>
+    <string name="exercise_completed">EXERCISE COMPLETED</string>
+    <string name="no_data_available">NO DATA AVAILABLE</string>
 </resources>
