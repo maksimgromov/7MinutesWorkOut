@@ -10,3 +10,4 @@
 ![](Assets/QuitPopUp.png)
 ![](Assets/BMIScreen.png)
 ![](Assets/HistoryScreen.png)
+<img src='Assets/HistoryScreen.png' height='250'>
